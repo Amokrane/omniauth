@@ -6,6 +6,7 @@ module OmniAuth
     autoload :OAuth2,             'omniauth/strategies/oauth2'
     autoload :XAuth,              'omniauth/strategies/xauth'
 
+    autoload :BitBucket,          'omniauth/strategies/bitbucket'
     autoload :Bitly,              'omniauth/strategies/bitly'
     autoload :Blogger,            'omniauth/strategies/blogger'
     autoload :Dailymile,          'omniauth/strategies/dailymile'
